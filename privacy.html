@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0b1020" />
+    <link rel="icon" type="image/png" href="./images/icon.png" />
+    <link rel="canonical" href="https://snappyfoxgames.co.uk/privacy" />
+    <meta name="description" content="How DDMO handles browser storage and limited technical information." />
+    <title>DDMO Privacy Policy</title>
+    <style>body{margin:0;background:#0b1020;color:#e2e8f0;font:16px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif}main{max-width:760px;margin:auto;padding:48px 24px 72px}a{color:#7dd3fc}h1{color:#34d399;margin-bottom:0}h2{margin-top:2.2rem;color:#fff}p,li{color:#cbd5e1}.eyebrow{color:#94a3b8;margin-top:.2rem}.card{background:#111a33;border:1px solid #263555;border-radius:14px;padding:18px 22px;margin:24px 0}footer{margin-top:44px;color:#94a3b8;font-size:.9rem}</style>
+  </head>
+  <body>
+    <main>
+      <a href="./">← Back to DDMO</a>
+      <h1>Privacy Policy</h1>
+      <p class="eyebrow">DDMO · Snappy Fox Ltd · Updated 20 October 2026</p>
+      <div class="card"><strong>The short version:</strong> DDMO is an anonymous game. It does not require an account, ask for a name or email address, sell personal information, or use advertising analytics.</div>
+
+      <h2>Who is responsible</h2>
+      <p>Snappy Fox Ltd operates DDMO. For privacy questions, contact <a href="mailto:hello@snappyfox.co.uk">hello@snappyfox.co.uk</a>.</p>
+
+      <h2>What the game stores on your device</h2>
+      <p>DDMO stores game settings and progress in your browser's local storage, such as your sound setting, personal best, run count and purchased upgrades. This information stays in that browser unless you clear browser data. It is not sent to our game server by the game.</p>
+
+      <h2>What our service processes</h2>
+      <p>When your browser loads the game, our hosting providers may process limited technical request information, such as IP address, browser or device information, requested URL, date and time, and error or security logs. We use this information only to deliver, secure, maintain, and troubleshoot the service.</p>
+
+      <h2>Cookies, sharing, and advertising</h2>
+      <p>On our hosted review copy, DDMO uses Google Analytics 4 for aggregate usage statistics, including link visits, approximate location, device information, engagement time and level starts, completions and failures. This uses cookies and similar technology. Google Signals and advertising personalisation are disabled. We do not send names, account identifiers, input recordings or saved progress to Google Analytics. Portal builds uploaded to Poki or CrazyGames do not load this analytics tag. To exclude a review visit, add <code>?analytics=off</code> to its URL. To opt out in this browser, use the control below. DDMO does not sell or share personal information for targeted advertising. When the game runs on a third-party games portal, that portal may serve advertising and set its own cookies under its own privacy policy.</p>
+
+      <p><button id="analytics-optout" type="button">Turn off review analytics in this browser</button> <span id="analytics-status" role="status"></span></p>
+      <script>
+        document.getElementById("analytics-optout").addEventListener("click", function () {
+          try { localStorage.setItem("sfg-analytics-opt-out", "true"); document.getElementById("analytics-status").textContent = "Review analytics off. Reload any open game tab."; }
+          catch (_) { document.getElementById("analytics-status").textContent = "Browser storage is unavailable. Use ?analytics=off on the game URL."; }
+        });
+      </script>
+      <h2>Service providers</h2>
+      <p>We use hosting and infrastructure providers to make DDMO available, and Google Analytics for the hosted review statistics described above. Those providers may process technical information on our behalf to operate and secure their services.</p>
+
+      <h2>Retention</h2>
+      <p>Device-local game data remains until you clear it. Operational logs are retained only for as long as reasonably necessary for security, troubleshooting, and service operation, subject to our providers' retention practices.</p>
+
+      <h2>Your choices and rights</h2>
+      <p>You can clear local game data through your browser settings. Depending on where you live, you may have rights to ask about personal information we hold about you. Contact us at the address above and we will respond as required by applicable law.</p>
+
+      <h2>Children</h2>
+      <p>DDMO is a general-audience arcade game. We do not knowingly collect personal information from children.</p>
+
+      <h2>Changes</h2>
+      <p>We may update this policy when the service or applicable law changes. We will post the updated version here and change its effective date.</p>
+      <footer><a href="./terms.html">Terms of Use</a> · <a href="./support.html">Support</a> · © Snappy Fox Ltd</footer>
+    </main>
+  </body>
+</html>

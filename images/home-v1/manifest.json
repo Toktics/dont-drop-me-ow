@@ -1,0 +1,1053 @@
+{
+  "pack": "home-v1",
+  "request": "REQ-D6",
+  "canvas": {
+    "width": 1280,
+    "height": 720
+  },
+  "palette": {
+    "paper": "#e7dabd",
+    "ink": "#26231f",
+    "softInk": "#3a352d",
+    "accent": "#e8622a"
+  },
+  "backdrop": {
+    "file": "home-v1/room-backdrop.png",
+    "width": 1280,
+    "height": 720
+  },
+  "items": {
+    "saucer": {
+      "id": "saucer",
+      "file": "home-v1/items/saucer.png",
+      "width": 352,
+      "height": 183,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9071
+      },
+      "source": "home-comfort-master.png#0"
+    },
+    "bowl-milk": {
+      "id": "bowl-milk",
+      "file": "home-v1/items/bowl-milk.png",
+      "width": 352,
+      "height": 251,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9323
+      },
+      "source": "home-comfort-master.png#1"
+    },
+    "cream-fountain": {
+      "id": "cream-fountain",
+      "file": "home-v1/items/cream-fountain.png",
+      "width": 311,
+      "height": 352,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9517
+      },
+      "source": "home-comfort-master.png#2"
+    },
+    "cushion": {
+      "id": "cushion",
+      "file": "home-v1/items/cushion.png",
+      "width": 352,
+      "height": 203,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9163
+      },
+      "source": "home-comfort-master.png#3"
+    },
+    "cat-bed": {
+      "id": "cat-bed",
+      "file": "home-v1/items/cat-bed.png",
+      "width": 352,
+      "height": 236,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.928
+      },
+      "source": "home-comfort-master.png#4"
+    },
+    "cat-tower": {
+      "id": "cat-tower",
+      "file": "home-v1/items/cat-tower.png",
+      "width": 332,
+      "height": 352,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9517
+      },
+      "source": "home-comfort-master.png#5"
+    },
+    "rug-small": {
+      "id": "rug-small",
+      "file": "home-v1/items/rug-small.png",
+      "width": 352,
+      "height": 177,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.904
+      },
+      "source": "home-comfort-master.png#6"
+    },
+    "rug-big": {
+      "id": "rug-big",
+      "file": "home-v1/items/rug-big.png",
+      "width": 352,
+      "height": 189,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9101
+      },
+      "source": "home-comfort-master.png#7"
+    },
+    "grand-rug": {
+      "id": "grand-rug",
+      "file": "home-v1/items/grand-rug.png",
+      "width": 352,
+      "height": 207,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9179
+      },
+      "source": "home-comfort-master.png#8"
+    },
+    "stool": {
+      "id": "stool",
+      "file": "home-v1/items/stool.png",
+      "width": 263,
+      "height": 227,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9251
+      },
+      "source": "home-play-master.png#0"
+    },
+    "armchair": {
+      "id": "armchair",
+      "file": "home-v1/items/armchair.png",
+      "width": 352,
+      "height": 340,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.95
+      },
+      "source": "home-play-master.png#1"
+    },
+    "sofa": {
+      "id": "sofa",
+      "file": "home-v1/items/sofa.png",
+      "width": 352,
+      "height": 214,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9206
+      },
+      "source": "home-play-master.png#2"
+    },
+    "scratch-post": {
+      "id": "scratch-post",
+      "file": "home-v1/items/scratch-post.png",
+      "width": 239,
+      "height": 352,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9517
+      },
+      "source": "home-play-master.png#3"
+    },
+    "scratch-tower": {
+      "id": "scratch-tower",
+      "file": "home-v1/items/scratch-tower.png",
+      "width": 287,
+      "height": 352,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9517
+      },
+      "source": "home-play-master.png#4"
+    },
+    "toy-mouse": {
+      "id": "toy-mouse",
+      "file": "home-fixes-v1/toy-mouse.png",
+      "width": 352,
+      "height": 235,
+      "anchor": {
+        "x": 0.69,
+        "y": 0.8
+      },
+      "source": "asset-sources/home-fixes-v1/toy-mouse-master.png",
+      "renderWidth": 70
+    },
+    "yarn-ball": {
+      "id": "yarn-ball",
+      "file": "home-v1/items/yarn-ball.png",
+      "width": 352,
+      "height": 211,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9194
+      },
+      "source": "home-play-master.png#6"
+    },
+    "laser-pointer": {
+      "id": "laser-pointer",
+      "file": "home-v1/items/laser-pointer.png",
+      "width": 249,
+      "height": 203,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9163
+      },
+      "source": "home-play-master.png#7"
+    },
+    "floor-lamp": {
+      "id": "floor-lamp",
+      "file": "home-v1/items/floor-lamp.png",
+      "width": 192,
+      "height": 352,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9517
+      },
+      "source": "home-play-master.png#8"
+    },
+    "picture-frame": {
+      "id": "picture-frame",
+      "file": "home-v1/items/picture-frame.png",
+      "width": 345,
+      "height": 334,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9491
+      },
+      "source": "home-decor-master.png#0"
+    },
+    "bunting": {
+      "id": "bunting",
+      "file": "home-v1/items/bunting.png",
+      "width": 352,
+      "height": 185,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9081
+      },
+      "source": "home-decor-master.png#1"
+    },
+    "wall-clock": {
+      "id": "wall-clock",
+      "file": "home-v1/items/wall-clock.png",
+      "width": 352,
+      "height": 351,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9516
+      },
+      "source": "home-decor-master.png#2"
+    },
+    "poster": {
+      "id": "poster",
+      "file": "home-v1/items/poster.png",
+      "width": 304,
+      "height": 352,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9517
+      },
+      "source": "home-decor-master.png#3"
+    },
+    "rescue-portrait": {
+      "id": "rescue-portrait",
+      "file": "home-v1/items/rescue-portrait.png",
+      "width": 321,
+      "height": 352,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9517
+      },
+      "source": "home-decor-master.png#4"
+    },
+    "bookshelf": {
+      "id": "bookshelf",
+      "file": "home-v1/items/bookshelf.png",
+      "width": 310,
+      "height": 352,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9517
+      },
+      "source": "home-decor-master.png#5"
+    },
+    "shelf-plant": {
+      "id": "shelf-plant",
+      "file": "home-v1/items/shelf-plant.png",
+      "width": 335,
+      "height": 352,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9517
+      },
+      "source": "home-decor-master.png#6"
+    },
+    "fireplace": {
+      "id": "fireplace",
+      "file": "home-v1/items/fireplace.png",
+      "width": 352,
+      "height": 282,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9397
+      },
+      "source": "home-decor-master.png#7"
+    },
+    "mantel-vase": {
+      "id": "mantel-vase",
+      "file": "home-v1/items/mantel-vase.png",
+      "width": 206,
+      "height": 350,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9514
+      },
+      "source": "home-decor-master.png#8"
+    },
+    "window": {
+      "id": "window",
+      "file": "home-v1/items/window.png",
+      "width": 352,
+      "height": 333,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9489
+      },
+      "source": "home-architecture-master.png#0"
+    },
+    "curtains": {
+      "id": "curtains",
+      "file": "home-v1/items/curtains.png",
+      "width": 352,
+      "height": 312,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9455
+      },
+      "source": "home-architecture-master.png#1"
+    },
+    "window-box": {
+      "id": "window-box",
+      "file": "home-v1/items/window-box.png",
+      "width": 352,
+      "height": 344,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9506
+      },
+      "source": "home-architecture-master.png#2"
+    },
+    "ceiling-mobile": {
+      "id": "ceiling-mobile",
+      "file": "home-v1/items/ceiling-mobile.png",
+      "width": 339,
+      "height": 352,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9517
+      },
+      "source": "home-architecture-master.png#3"
+    },
+    "pendant-lamp": {
+      "id": "pendant-lamp",
+      "file": "home-v1/items/pendant-lamp.png",
+      "width": 294,
+      "height": 352,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9517
+      },
+      "source": "home-architecture-master.png#4"
+    },
+    "fishbowl": {
+      "id": "fishbowl",
+      "file": "home-v1/items/fishbowl.png",
+      "width": 352,
+      "height": 323,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9474
+      },
+      "source": "home-architecture-master.png#5"
+    },
+    "fishtank": {
+      "id": "fishtank",
+      "file": "home-v1/items/fishtank.png",
+      "width": 352,
+      "height": 262,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9351
+      },
+      "source": "home-architecture-master.png#6"
+    },
+    "paint-warm": {
+      "id": "paint-warm",
+      "file": "home-v1/items/paint-warm.png",
+      "width": 352,
+      "height": 327,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.948
+      },
+      "source": "home-architecture-master.png#7"
+    },
+    "paint-papered": {
+      "id": "paint-papered",
+      "file": "home-v1/items/paint-papered.png",
+      "width": 352,
+      "height": 337,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9496
+      },
+      "source": "home-architecture-master.png#8"
+    },
+    "catnip-pouch": {
+      "id": "catnip-pouch",
+      "file": "home-v1/items/catnip-pouch.png",
+      "width": 200,
+      "height": 189,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9524
+      },
+      "alphaBounds": {
+        "x": 8,
+        "y": 8,
+        "width": 184,
+        "height": 173
+      },
+      "source": "catnip-pouch-item-master.png"
+    },
+    "feather-wand": {
+      "id": "feather-wand",
+      "file": "home-v1/items/feather-wand.png",
+      "width": 152,
+      "height": 200,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.955
+      },
+      "alphaBounds": {
+        "x": 8,
+        "y": 8,
+        "width": 136,
+        "height": 184
+      },
+      "source": "feather-wand-item-master.png"
+    },
+    "treat-tin": {
+      "id": "treat-tin",
+      "file": "home-v1/items/treat-tin.png",
+      "width": 200,
+      "height": 142,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9366
+      },
+      "alphaBounds": {
+        "x": 8,
+        "y": 8,
+        "width": 184,
+        "height": 126
+      },
+      "source": "treat-tin-item-master.png"
+    },
+    "cardboard-box": {
+      "id": "cardboard-box",
+      "file": "home-v1/items/cardboard-box.png",
+      "width": 200,
+      "height": 150,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.94
+      },
+      "alphaBounds": {
+        "x": 8,
+        "y": 8,
+        "width": 184,
+        "height": 134
+      },
+      "source": "cardboard-box-item-master.png"
+    }
+  },
+  "mokoCore": {
+    "safe-drop-hop": {
+      "id": "safe-drop-hop",
+      "file": "home-v1/moko-reactions/safe-drop-hop.png",
+      "width": 352,
+      "height": 330,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9485
+      },
+      "source": "moko-home-core-master.png#0"
+    },
+    "home-walk-01": {
+      "id": "home-walk-01",
+      "file": "home-v1/moko-reactions/home-walk-01.png",
+      "width": 352,
+      "height": 331,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9486
+      },
+      "source": "moko-home-core-master.png#1"
+    },
+    "home-walk-02": {
+      "id": "home-walk-02",
+      "file": "home-v1/moko-reactions/home-walk-02.png",
+      "width": 352,
+      "height": 340,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.95
+      },
+      "source": "moko-home-core-master.png#2"
+    },
+    "home-walk-03": {
+      "id": "home-walk-03",
+      "file": "home-v1/moko-reactions/home-walk-03.png",
+      "width": 352,
+      "height": 320,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9469
+      },
+      "source": "moko-home-core-master.png#3"
+    },
+    "home-walk-04": {
+      "id": "home-walk-04",
+      "file": "home-v1/moko-reactions/home-walk-04.png",
+      "width": 352,
+      "height": 331,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9486
+      },
+      "source": "moko-home-core-master.png#4"
+    },
+    "home-sit": {
+      "id": "home-sit",
+      "file": "home-v1/moko-reactions/home-sit.png",
+      "width": 317,
+      "height": 352,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9517
+      },
+      "source": "moko-home-core-master.png#5"
+    },
+    "home-sleep-01": {
+      "id": "home-sleep-01",
+      "file": "home-v1/moko-reactions/home-sleep-01.png",
+      "width": 352,
+      "height": 269,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9368
+      },
+      "source": "moko-home-core-master.png#6"
+    },
+    "home-sleep-02": {
+      "id": "home-sleep-02",
+      "file": "home-v1/moko-reactions/home-sleep-02.png",
+      "width": 352,
+      "height": 260,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9346
+      },
+      "source": "moko-home-core-master.png#7"
+    },
+    "home-loaf": {
+      "id": "home-loaf",
+      "file": "home-v1/moko-reactions/home-loaf.png",
+      "width": 352,
+      "height": 286,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9406
+      },
+      "source": "moko-home-core-master.png#8"
+    }
+  },
+  "reactions": {
+    "saucer": {
+      "id": "react-saucer",
+      "file": "home-v1/moko-reactions/react-saucer.png",
+      "width": 352,
+      "height": 345,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9507
+      },
+      "source": "moko-reactions-comfort-master.png#0"
+    },
+    "bowl-milk": {
+      "id": "react-bowl-milk",
+      "file": "home-v1/moko-reactions/react-bowl-milk.png",
+      "width": 352,
+      "height": 282,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9397
+      },
+      "source": "moko-reactions-comfort-master.png#1"
+    },
+    "cream-fountain": {
+      "id": "react-cream-fountain",
+      "file": "home-v1/moko-reactions/react-cream-fountain.png",
+      "width": 287,
+      "height": 352,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9517
+      },
+      "source": "moko-reactions-comfort-master.png#2"
+    },
+    "cushion": {
+      "id": "react-cushion",
+      "file": "home-v1/moko-reactions/react-cushion.png",
+      "width": 352,
+      "height": 317,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9464
+      },
+      "source": "moko-reactions-comfort-master.png#3"
+    },
+    "cat-bed": {
+      "id": "react-cat-bed",
+      "file": "home-v1/moko-reactions/react-cat-bed.png",
+      "width": 347,
+      "height": 352,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9517
+      },
+      "source": "moko-reactions-comfort-master.png#4"
+    },
+    "cat-tower": {
+      "id": "react-cat-tower",
+      "file": "home-v1/moko-reactions/react-cat-tower.png",
+      "width": 293,
+      "height": 352,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9517
+      },
+      "source": "moko-reactions-comfort-master.png#5"
+    },
+    "rug-small": {
+      "id": "react-rug-small",
+      "file": "home-v1/moko-reactions/react-rug-small.png",
+      "width": 352,
+      "height": 341,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9501
+      },
+      "source": "moko-reactions-comfort-master.png#6"
+    },
+    "rug-big": {
+      "id": "react-rug-big",
+      "file": "home-v1/moko-reactions/react-rug-big.png",
+      "width": 352,
+      "height": 267,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9363
+      },
+      "source": "moko-reactions-comfort-master.png#7"
+    },
+    "grand-rug": {
+      "id": "react-grand-rug",
+      "file": "home-v1/moko-reactions/react-grand-rug.png",
+      "width": 352,
+      "height": 272,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9375
+      },
+      "source": "moko-reactions-comfort-master.png#8"
+    },
+    "stool": {
+      "id": "react-stool",
+      "file": "home-v1/moko-reactions/react-stool.png",
+      "width": 332,
+      "height": 352,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9517
+      },
+      "source": "moko-reactions-play-master.png#0"
+    },
+    "armchair": {
+      "id": "react-armchair",
+      "file": "home-v1/moko-reactions/react-armchair.png",
+      "width": 352,
+      "height": 301,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9435
+      },
+      "source": "moko-reactions-play-master.png#1"
+    },
+    "sofa": {
+      "id": "react-sofa",
+      "file": "home-v1/moko-reactions/react-sofa.png",
+      "width": 349,
+      "height": 352,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9517
+      },
+      "source": "moko-reactions-play-master.png#2"
+    },
+    "scratch-post": {
+      "id": "react-scratch-post",
+      "file": "home-v1/moko-reactions/react-scratch-post.png",
+      "width": 284,
+      "height": 352,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9517
+      },
+      "source": "moko-reactions-play-master.png#3"
+    },
+    "scratch-tower": {
+      "id": "react-scratch-tower",
+      "file": "home-v1/moko-reactions/react-scratch-tower.png",
+      "width": 289,
+      "height": 352,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9517
+      },
+      "source": "moko-reactions-play-master.png#4"
+    },
+    "toy-mouse": {
+      "id": "react-toy-mouse",
+      "file": "home-v1/moko-reactions/react-toy-mouse.png",
+      "width": 352,
+      "height": 347,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.951
+      },
+      "source": "moko-reactions-play-master.png#5"
+    },
+    "yarn-ball": {
+      "id": "react-yarn-ball",
+      "file": "home-v1/moko-reactions/react-yarn-ball.png",
+      "width": 352,
+      "height": 313,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9457
+      },
+      "source": "moko-reactions-play-master.png#6"
+    },
+    "laser-pointer": {
+      "id": "react-laser-pointer",
+      "file": "home-v1/moko-reactions/react-laser-pointer.png",
+      "width": 352,
+      "height": 290,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9414
+      },
+      "source": "moko-reactions-play-master.png#7"
+    },
+    "floor-lamp": {
+      "id": "react-floor-lamp",
+      "file": "home-v1/moko-reactions/react-floor-lamp.png",
+      "width": 352,
+      "height": 244,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9303
+      },
+      "source": "moko-reactions-play-master.png#8"
+    },
+    "picture-frame": {
+      "id": "react-picture-frame",
+      "file": "home-v1/moko-reactions/react-picture-frame.png",
+      "width": 351,
+      "height": 352,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9517
+      },
+      "source": "moko-reactions-decor-master.png#0"
+    },
+    "bunting": {
+      "id": "react-bunting",
+      "file": "home-v1/moko-reactions/react-bunting.png",
+      "width": 340,
+      "height": 352,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9517
+      },
+      "source": "moko-reactions-decor-master.png#1"
+    },
+    "wall-clock": {
+      "id": "react-wall-clock",
+      "file": "home-v1/moko-reactions/react-wall-clock.png",
+      "width": 321,
+      "height": 352,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9517
+      },
+      "source": "moko-reactions-decor-master.png#2"
+    },
+    "poster": {
+      "id": "react-poster",
+      "file": "home-v1/moko-reactions/react-poster.png",
+      "width": 338,
+      "height": 352,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9517
+      },
+      "source": "moko-reactions-decor-master.png#3"
+    },
+    "rescue-portrait": {
+      "id": "react-rescue-portrait",
+      "file": "home-v1/moko-reactions/react-rescue-portrait.png",
+      "width": 302,
+      "height": 352,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9517
+      },
+      "source": "moko-reactions-decor-master.png#4"
+    },
+    "bookshelf": {
+      "id": "react-bookshelf",
+      "file": "home-v1/moko-reactions/react-bookshelf.png",
+      "width": 291,
+      "height": 352,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9517
+      },
+      "source": "moko-reactions-decor-master.png#5"
+    },
+    "shelf-plant": {
+      "id": "react-shelf-plant",
+      "file": "home-v1/moko-reactions/react-shelf-plant.png",
+      "width": 352,
+      "height": 221,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9231
+      },
+      "source": "moko-reactions-decor-master.png#6"
+    },
+    "fireplace": {
+      "id": "react-fireplace",
+      "file": "home-v1/moko-reactions/react-fireplace.png",
+      "width": 352,
+      "height": 295,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9424
+      },
+      "source": "moko-reactions-decor-master.png#7"
+    },
+    "mantel-vase": {
+      "id": "react-mantel-vase",
+      "file": "home-v1/moko-reactions/react-mantel-vase.png",
+      "width": 352,
+      "height": 275,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9382
+      },
+      "source": "moko-reactions-decor-master.png#8"
+    },
+    "window": {
+      "id": "react-window",
+      "file": "home-v1/moko-reactions/react-window.png",
+      "width": 350,
+      "height": 352,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9517
+      },
+      "source": "moko-reactions-architecture-master.png#0"
+    },
+    "curtains": {
+      "id": "react-curtains",
+      "file": "home-v1/moko-reactions/react-curtains.png",
+      "width": 352,
+      "height": 287,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9408
+      },
+      "source": "moko-reactions-architecture-master.png#1"
+    },
+    "window-box": {
+      "id": "react-window-box",
+      "file": "home-v1/moko-reactions/react-window-box.png",
+      "width": 350,
+      "height": 352,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9517
+      },
+      "source": "moko-reactions-architecture-master.png#2"
+    },
+    "ceiling-mobile": {
+      "id": "react-ceiling-mobile",
+      "file": "home-v1/moko-reactions/react-ceiling-mobile.png",
+      "width": 282,
+      "height": 352,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9517
+      },
+      "source": "moko-reactions-architecture-master.png#3"
+    },
+    "pendant-lamp": {
+      "id": "react-pendant-lamp",
+      "file": "home-v1/moko-reactions/react-pendant-lamp.png",
+      "width": 303,
+      "height": 352,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9517
+      },
+      "source": "moko-reactions-architecture-master.png#4"
+    },
+    "fishbowl": {
+      "id": "react-fishbowl",
+      "file": "home-v1/moko-reactions/react-fishbowl.png",
+      "width": 352,
+      "height": 268,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9366
+      },
+      "source": "moko-reactions-architecture-master.png#5"
+    },
+    "fishtank": {
+      "id": "react-fishtank",
+      "file": "home-v1/moko-reactions/react-fishtank.png",
+      "width": 352,
+      "height": 235,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9277
+      },
+      "source": "moko-reactions-wall-master.png#0"
+    },
+    "paint-warm": {
+      "id": "react-paint-warm",
+      "file": "home-v1/moko-reactions/react-paint-warm.png",
+      "width": 340,
+      "height": 352,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9517
+      },
+      "source": "moko-reactions-wall-master.png#1"
+    },
+    "paint-papered": {
+      "id": "react-paint-papered",
+      "file": "home-v1/moko-reactions/react-paint-papered.png",
+      "width": 303,
+      "height": 352,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9517
+      },
+      "source": "moko-reactions-wall-master.png#2"
+    },
+    "catnip-pouch": {
+      "id": "catnip-pouch",
+      "file": "home-v1/reactions/catnip-pouch.png",
+      "width": 320,
+      "height": 239,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9456
+      },
+      "alphaBounds": {
+        "x": 12,
+        "y": 12,
+        "width": 296,
+        "height": 215
+      },
+      "source": "catnip-pouch-reaction-master.png"
+    },
+    "feather-wand": {
+      "id": "feather-wand",
+      "file": "home-v1/reactions/feather-wand.png",
+      "width": 320,
+      "height": 250,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.948
+      },
+      "alphaBounds": {
+        "x": 12,
+        "y": 12,
+        "width": 296,
+        "height": 226
+      },
+      "source": "feather-wand-reaction-master.png"
+    },
+    "treat-tin": {
+      "id": "treat-tin",
+      "file": "home-v1/reactions/treat-tin.png",
+      "width": 316,
+      "height": 320,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9594
+      },
+      "alphaBounds": {
+        "x": 12,
+        "y": 12,
+        "width": 292,
+        "height": 296
+      },
+      "source": "treat-tin-reaction-master.png"
+    },
+    "cardboard-box": {
+      "id": "cardboard-box",
+      "file": "home-v1/reactions/cardboard-box.png",
+      "width": 320,
+      "height": 256,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9492
+      },
+      "alphaBounds": {
+        "x": 12,
+        "y": 12,
+        "width": 296,
+        "height": 232
+      },
+      "source": "cardboard-box-reaction-master.png"
+    }
+  }
+}

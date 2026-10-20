@@ -1,0 +1,123 @@
+{
+  "pack": "moko-death-v1",
+  "request": "REQ-D7",
+  "propRequest": "REQ-D8",
+  "cell": {
+    "width": 288,
+    "height": 256
+  },
+  "assets": {
+    "ghost": {
+      "file": "moko-death-v1/ghost-moko.png",
+      "width": 288,
+      "height": 256,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "alphaBounds": {
+        "x": 60,
+        "y": 40,
+        "width": 168,
+        "height": 184
+      },
+      "source": "asset-sources/req-d7/masters/ghost-moko-master.png"
+    },
+    "ko": {
+      "file": "moko-death-v1/ko-moko.png",
+      "width": 288,
+      "height": 256,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.8789
+      },
+      "alphaBounds": {
+        "x": 32,
+        "y": 119,
+        "width": 224,
+        "height": 106
+      },
+      "source": "asset-sources/req-d7/masters/ko-moko-master.png"
+    },
+    "tombstone": {
+      "file": "moko-death-v1/tombstone.png",
+      "width": 68,
+      "height": 96,
+      "anchor": { "x": 0.5, "y": 1 },
+      "alphaBounds": { "x": 0, "y": 8, "width": 68, "height": 80 },
+      "source": "asset-sources/req-d8/masters/tombstone-master.png"
+    },
+    "tallyCard": {
+      "file": "moko-death-v1/tally-card.png",
+      "width": 300,
+      "height": 68,
+      "anchor": { "x": 0.5, "y": 0.5 },
+      "alphaBounds": { "x": 11, "y": 0, "width": 278, "height": 68 },
+      "source": "asset-sources/req-d8/masters/tally-card-master.png"
+    },
+    "halo": {
+      "file": "moko-death-v1/halo.png",
+      "width": 52,
+      "height": 14,
+      "anchor": { "x": 0.5, "y": 0.5 },
+      "alphaBounds": { "x": 0, "y": 2, "width": 52, "height": 10 },
+      "source": "asset-sources/req-d8/masters/halo-master.png"
+    },
+    "elevatorDoorLeft": {
+      "file": "moko-death-v1/elevator-door-left.png",
+      "width": 70,
+      "height": 90,
+      "anchor": { "x": 1, "y": 0 },
+      "alphaBounds": { "x": 0, "y": 0, "width": 70, "height": 90 },
+      "source": "asset-sources/req-d8/masters/elevator-doors-master.png"
+    },
+    "elevatorDoorRight": {
+      "file": "moko-death-v1/elevator-door-right.png",
+      "width": 70,
+      "height": 90,
+      "anchor": { "x": 0, "y": 0 },
+      "alphaBounds": { "x": 0, "y": 0, "width": 70, "height": 90 },
+      "source": "asset-sources/req-d8/masters/elevator-doors-master.png"
+    },
+    "balloon": {
+      "file": "moko-death-v1/balloon.png",
+      "width": 56,
+      "height": 66,
+      "anchor": { "x": 0.5, "y": 1 },
+      "alphaBounds": { "x": 7, "y": 0, "width": 41, "height": 66 },
+      "source": "asset-sources/req-d8/masters/balloon-master.png"
+    },
+    "pearlyGateLeft": {
+      "file": "moko-death-v1/pearly-gate-left.png",
+      "width": 46,
+      "height": 96,
+      "anchor": { "x": 0, "y": 1 },
+      "alphaBounds": { "x": 4, "y": 0, "width": 38, "height": 96 },
+      "source": "asset-sources/req-d8/masters/pearly-gates-master.png"
+    },
+    "pearlyGateRight": {
+      "file": "moko-death-v1/pearly-gate-right.png",
+      "width": 46,
+      "height": 96,
+      "anchor": { "x": 1, "y": 1 },
+      "alphaBounds": { "x": 4, "y": 0, "width": 38, "height": 96 },
+      "source": "asset-sources/req-d8/masters/pearly-gates-master.png"
+    },
+    "curtainEdge": {
+      "file": "moko-death-v1/curtain-edge.png",
+      "width": 96,
+      "height": 320,
+      "anchor": { "x": 0, "y": 0.5 },
+      "alphaBounds": { "x": 0, "y": 25, "width": 96, "height": 269 },
+      "source": "asset-sources/req-d8/masters/curtain-master.png"
+    },
+    "eightToGo": {
+      "file": "moko-death-v1/eight-to-go.png",
+      "width": 240,
+      "height": 52,
+      "anchor": { "x": 0.5, "y": 0.5 },
+      "alphaBounds": { "x": 0, "y": 4, "width": 240, "height": 44 },
+      "source": "asset-sources/req-d8/masters/eight-to-go-master.png"
+    }
+  }
+}

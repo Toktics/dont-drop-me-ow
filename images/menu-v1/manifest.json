@@ -1,0 +1,408 @@
+{
+  "pack": "menu-v1",
+  "generator": "built-in image_gen; exact supplied logo",
+  "sprites": [
+    {
+      "file": "fall-1.webp",
+      "sequence": "fall",
+      "frame": 0,
+      "sourceCell": {
+        "left": 60,
+        "top": 30,
+        "width": 440,
+        "height": 520
+      },
+      "sourceAlpha": {
+        "l": 38,
+        "t": 38,
+        "r": 412,
+        "b": 502
+      },
+      "width": 384,
+      "height": 384,
+      "contactY": 366,
+      "sha256": "324c68049c074118eeb250febd18b01811e5cc7fe496b0b09dd314384537c83e",
+      "masterSha256": "f70a3c4e0d983b33b42293c7536d0296de8274c401b8ef7cc0d22cfafb43fa1d"
+    },
+    {
+      "file": "fall-2.webp",
+      "sequence": "fall",
+      "frame": 1,
+      "sourceCell": {
+        "left": 550,
+        "top": 30,
+        "width": 460,
+        "height": 510
+      },
+      "sourceAlpha": {
+        "l": 37,
+        "t": 31,
+        "r": 422,
+        "b": 472
+      },
+      "width": 384,
+      "height": 384,
+      "contactY": 366,
+      "sha256": "5765e3cb7cbaa91d7cfa7d1d2859b0237d46371430fa1228d3237e4fea937322",
+      "masterSha256": "f70a3c4e0d983b33b42293c7536d0296de8274c401b8ef7cc0d22cfafb43fa1d"
+    },
+    {
+      "file": "fall-3.webp",
+      "sequence": "fall",
+      "frame": 2,
+      "sourceCell": {
+        "left": 1045,
+        "top": 60,
+        "width": 480,
+        "height": 480
+      },
+      "sourceAlpha": {
+        "l": 22,
+        "t": 44,
+        "r": 431,
+        "b": 450
+      },
+      "width": 384,
+      "height": 384,
+      "contactY": 366,
+      "sha256": "6c14e94f63bddc465b4062e24d68e1e0590c64ed187a8201014499c497907deb",
+      "masterSha256": "f70a3c4e0d983b33b42293c7536d0296de8274c401b8ef7cc0d22cfafb43fa1d"
+    },
+    {
+      "file": "fall-4.webp",
+      "sequence": "fall",
+      "frame": 3,
+      "sourceCell": {
+        "left": 55,
+        "top": 570,
+        "width": 490,
+        "height": 420
+      },
+      "sourceAlpha": {
+        "l": 28,
+        "t": 35,
+        "r": 466,
+        "b": 375
+      },
+      "width": 384,
+      "height": 384,
+      "contactY": 366,
+      "sha256": "fd5ef1428a4afdc256fdd8ead71ba4a1962dad49a4e7b6346f4ccc0153bf332c",
+      "masterSha256": "f70a3c4e0d983b33b42293c7536d0296de8274c401b8ef7cc0d22cfafb43fa1d"
+    },
+    {
+      "file": "fall-5.webp",
+      "sequence": "fall",
+      "frame": 4,
+      "sourceCell": {
+        "left": 590,
+        "top": 650,
+        "width": 450,
+        "height": 350
+      },
+      "sourceAlpha": {
+        "l": 21,
+        "t": 31,
+        "r": 436,
+        "b": 312
+      },
+      "width": 384,
+      "height": 384,
+      "contactY": 366,
+      "sha256": "50f0d51cda0e9bf1398aa3b0b9cefa6dc68ec56d765906353d1b545a93f71df9",
+      "masterSha256": "f70a3c4e0d983b33b42293c7536d0296de8274c401b8ef7cc0d22cfafb43fa1d"
+    },
+    {
+      "file": "fall-6.webp",
+      "sequence": "fall",
+      "frame": 5,
+      "sourceCell": {
+        "left": 1060,
+        "top": 555,
+        "width": 470,
+        "height": 440
+      },
+      "sourceAlpha": {
+        "l": 23,
+        "t": 30,
+        "r": 437,
+        "b": 414
+      },
+      "width": 384,
+      "height": 384,
+      "contactY": 366,
+      "sha256": "43543b3d8dea60957ba5d3e2c6e90a9d445045aa81f560a945ac9ffbcbee2506",
+      "masterSha256": "f70a3c4e0d983b33b42293c7536d0296de8274c401b8ef7cc0d22cfafb43fa1d"
+    },
+    {
+      "file": "mirror-1.webp",
+      "sequence": "mirror",
+      "frame": 0,
+      "sourceCell": {
+        "left": 0,
+        "top": 0,
+        "width": 512,
+        "height": 512
+      },
+      "sourceAlpha": {
+        "l": 30,
+        "t": 73,
+        "r": 484,
+        "b": 492
+      },
+      "width": 384,
+      "height": 384,
+      "contactY": 366,
+      "sha256": "c2f28fce5221137986004e8c20e0fe46b4e5b4134384b6d29e2c456a53417ac0",
+      "masterSha256": "0b6d11977205aa7b159e517d3cdabf8b48af0d044135701f39deac9d9813648d"
+    },
+    {
+      "file": "mirror-2.webp",
+      "sequence": "mirror",
+      "frame": 1,
+      "sourceCell": {
+        "left": 512,
+        "top": 0,
+        "width": 512,
+        "height": 512
+      },
+      "sourceAlpha": {
+        "l": 62,
+        "t": 54,
+        "r": 483,
+        "b": 491
+      },
+      "width": 384,
+      "height": 384,
+      "contactY": 366,
+      "sha256": "c95835a3901b5aa9fac5286b61ef674f8888f0b2d7a9c1a370a7fe3213719ba1",
+      "masterSha256": "0b6d11977205aa7b159e517d3cdabf8b48af0d044135701f39deac9d9813648d"
+    },
+    {
+      "file": "mirror-3.webp",
+      "sequence": "mirror",
+      "frame": 2,
+      "sourceCell": {
+        "left": 1024,
+        "top": 0,
+        "width": 512,
+        "height": 512
+      },
+      "sourceAlpha": {
+        "l": 34,
+        "t": 54,
+        "r": 465,
+        "b": 481
+      },
+      "width": 384,
+      "height": 384,
+      "contactY": 366,
+      "sha256": "f806777f408f17b65d3509e7299ea7f13edb0818051bf27d894455c357b5b40a",
+      "masterSha256": "0b6d11977205aa7b159e517d3cdabf8b48af0d044135701f39deac9d9813648d"
+    },
+    {
+      "file": "mirror-4.webp",
+      "sequence": "mirror",
+      "frame": 3,
+      "sourceCell": {
+        "left": 0,
+        "top": 512,
+        "width": 512,
+        "height": 512
+      },
+      "sourceAlpha": {
+        "l": 39,
+        "t": 22,
+        "r": 505,
+        "b": 439
+      },
+      "width": 384,
+      "height": 384,
+      "contactY": 366,
+      "sha256": "dc03dc589b96836a141ebd39f431dab2d047f29d946f98526ff0c887e4839deb",
+      "masterSha256": "0b6d11977205aa7b159e517d3cdabf8b48af0d044135701f39deac9d9813648d"
+    },
+    {
+      "file": "mirror-5.webp",
+      "sequence": "mirror",
+      "frame": 4,
+      "sourceCell": {
+        "left": 512,
+        "top": 512,
+        "width": 512,
+        "height": 512
+      },
+      "sourceAlpha": {
+        "l": 43,
+        "t": 56,
+        "r": 478,
+        "b": 447
+      },
+      "width": 384,
+      "height": 384,
+      "contactY": 366,
+      "sha256": "5fd873e7183f62ee055200101478a24fd14d729605c76af6e4b47aa542fa13f7",
+      "masterSha256": "0b6d11977205aa7b159e517d3cdabf8b48af0d044135701f39deac9d9813648d"
+    },
+    {
+      "file": "mirror-6.webp",
+      "sequence": "mirror",
+      "frame": 5,
+      "sourceCell": {
+        "left": 1024,
+        "top": 512,
+        "width": 512,
+        "height": 512
+      },
+      "sourceAlpha": {
+        "l": 33,
+        "t": 14,
+        "r": 463,
+        "b": 445
+      },
+      "width": 384,
+      "height": 384,
+      "contactY": 366,
+      "sha256": "dd0f36957f57cc83fb76060a19c106dcee84997284c8c04e217b090a0e3ab145",
+      "masterSha256": "0b6d11977205aa7b159e517d3cdabf8b48af0d044135701f39deac9d9813648d"
+    },
+    {
+      "file": "walk-1.webp",
+      "sequence": "walk",
+      "frame": 0,
+      "sourceCell": {
+        "left": 0,
+        "top": 0,
+        "width": 512,
+        "height": 512
+      },
+      "sourceAlpha": {
+        "l": 50,
+        "t": 102,
+        "r": 501,
+        "b": 491
+      },
+      "width": 384,
+      "height": 384,
+      "contactY": 366,
+      "sha256": "c8758eafd588bc3e417d5aa1bdc7775ed86469cefe7b62fb57688e8a49458bb4",
+      "masterSha256": "fffedb7a5b80f0411f3f8743de57f7ec82c3b6371ad239d6ea9781ef898f7a8c"
+    },
+    {
+      "file": "walk-2.webp",
+      "sequence": "walk",
+      "frame": 1,
+      "sourceCell": {
+        "left": 512,
+        "top": 0,
+        "width": 512,
+        "height": 512
+      },
+      "sourceAlpha": {
+        "l": 41,
+        "t": 103,
+        "r": 489,
+        "b": 491
+      },
+      "width": 384,
+      "height": 384,
+      "contactY": 366,
+      "sha256": "8e5f5fa5ed417435b0c09c96b227b8b64112cffc367bc61238f2c9cc4096ef13",
+      "masterSha256": "fffedb7a5b80f0411f3f8743de57f7ec82c3b6371ad239d6ea9781ef898f7a8c"
+    },
+    {
+      "file": "walk-3.webp",
+      "sequence": "walk",
+      "frame": 2,
+      "sourceCell": {
+        "left": 1024,
+        "top": 0,
+        "width": 512,
+        "height": 512
+      },
+      "sourceAlpha": {
+        "l": 32,
+        "t": 103,
+        "r": 476,
+        "b": 490
+      },
+      "width": 384,
+      "height": 384,
+      "contactY": 366,
+      "sha256": "2b4d5fbcfa9ca0bf16d04efaacd2f638698f34c998603a959608cbd73eae873d",
+      "masterSha256": "fffedb7a5b80f0411f3f8743de57f7ec82c3b6371ad239d6ea9781ef898f7a8c"
+    },
+    {
+      "file": "walk-4.webp",
+      "sequence": "walk",
+      "frame": 3,
+      "sourceCell": {
+        "left": 0,
+        "top": 512,
+        "width": 512,
+        "height": 512
+      },
+      "sourceAlpha": {
+        "l": 46,
+        "t": 63,
+        "r": 507,
+        "b": 451
+      },
+      "width": 384,
+      "height": 384,
+      "contactY": 366,
+      "sha256": "8d1d65946533060d8270042ee55bd67d76e242e57d3fc3197b229f58512a9995",
+      "masterSha256": "fffedb7a5b80f0411f3f8743de57f7ec82c3b6371ad239d6ea9781ef898f7a8c"
+    },
+    {
+      "file": "walk-5.webp",
+      "sequence": "walk",
+      "frame": 4,
+      "sourceCell": {
+        "left": 512,
+        "top": 512,
+        "width": 512,
+        "height": 512
+      },
+      "sourceAlpha": {
+        "l": 39,
+        "t": 60,
+        "r": 491,
+        "b": 451
+      },
+      "width": 384,
+      "height": 384,
+      "contactY": 366,
+      "sha256": "3ace9f4be49a558416155629b9cc3528867989b04c0b3132321d6d92c866e5f3",
+      "masterSha256": "fffedb7a5b80f0411f3f8743de57f7ec82c3b6371ad239d6ea9781ef898f7a8c"
+    },
+    {
+      "file": "walk-6.webp",
+      "sequence": "walk",
+      "frame": 5,
+      "sourceCell": {
+        "left": 1024,
+        "top": 512,
+        "width": 512,
+        "height": 512
+      },
+      "sourceAlpha": {
+        "l": 23,
+        "t": 62,
+        "r": 478,
+        "b": 451
+      },
+      "width": 384,
+      "height": 384,
+      "contactY": 366,
+      "sha256": "a1b5e19b33d8cb082865b60948253dc32a6e706d254e6c895f28a691d86bbc29",
+      "masterSha256": "fffedb7a5b80f0411f3f8743de57f7ec82c3b6371ad239d6ea9781ef898f7a8c"
+    },
+    {
+      "file": "logo.webp",
+      "source": "masters/martin-logo.png",
+      "sha256": "ac0e5fda40314c6356d34aeb856685c619b8364b9d5ca3933fb4b71000ac9d28",
+      "masterSha256": "07a32a2cffee3ef5bd33344b533a2f131cbf7bd83018e7f35e455bbf9a69bca3"
+    }
+  ]
+}

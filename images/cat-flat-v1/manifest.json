@@ -1,0 +1,150 @@
+{
+  "pack": "cat-flat-v1",
+  "request": "REQ-D3-A",
+  "buildPurpose": "in-game walk-motion review",
+  "status": "review-purpose build; walk strip only; remaining strips gated on Martin live-play verdict",
+  "source": {
+    "rig": "asset-sources/cat-flat-v1/rig/rig-source.json",
+    "master": "asset-sources/cat-flat-v1/masters/parts-board-imagegen-v1.png",
+    "prompt": "asset-sources/cat-flat-v1/parts-board-prompt.txt"
+  },
+  "frameWidth": 288,
+  "frameHeight": 256,
+  "baseline": 232,
+  "origin": {
+    "x": 0.5,
+    "y": 0.90625
+  },
+  "palette": {
+    "screen": "#cdd3bd",
+    "ink": "#1a1f1a",
+    "fur": "#91aabd",
+    "furShadow": "#7893a7",
+    "eye": "#fffdf6",
+    "nose": "#ff6929"
+  },
+  "frames": {
+    "cat": {
+      "walk-01": {
+        "file": "walk-01.png",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 44,
+          "y": 21,
+          "width": 204,
+          "height": 211
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "facing": "right",
+        "phase": "right-fore contact / left-hind push"
+      },
+      "walk-02": {
+        "file": "walk-02.png",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 44,
+          "y": 24,
+          "width": 199,
+          "height": 208
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "facing": "right",
+        "phase": "support / far hind folds forward"
+      },
+      "walk-03": {
+        "file": "walk-03.png",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 44,
+          "y": 20,
+          "width": 204,
+          "height": 212
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "facing": "right",
+        "phase": "gather / far hind overreaches plant line"
+      },
+      "walk-04": {
+        "file": "walk-04.png",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 44,
+          "y": 21,
+          "width": 204,
+          "height": 211
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "facing": "right",
+        "phase": "left-fore contact / right-hind push"
+      },
+      "walk-05": {
+        "file": "walk-05.png",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 44,
+          "y": 24,
+          "width": 199,
+          "height": 208
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "facing": "right",
+        "phase": "support / near hind folds forward"
+      },
+      "walk-06": {
+        "file": "walk-06.png",
+        "frame": {
+          "width": 288,
+          "height": 256
+        },
+        "visible": {
+          "x": 44,
+          "y": 20,
+          "width": 204,
+          "height": 212
+        },
+        "baseline": 232,
+        "origin": {
+          "x": 0.5,
+          "y": 0.90625
+        },
+        "facing": "right",
+        "phase": "gather / near hind overreaches plant line"
+      }
+    }
+  }
+}

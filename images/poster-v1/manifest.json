@@ -1,0 +1,59 @@
+{
+  "pack": "poster-v1",
+  "request": "REQ-D15 + REQ-D16",
+  "provenance": "REQ-D15 and REQ-D16 original cat-parody poster art generated with built-in image_gen from approved Moko and DDMO home references",
+  "canvas": {
+    "width": 400,
+    "height": 600,
+    "opaque": true,
+    "fullBleed": true
+  },
+  "palette": {
+    "paper": "warm paper family",
+    "ink": "#1a1f1a family",
+    "accent": "approved orange character accent",
+    "posterExceptions": [
+      "CAT FICTION red and yellow",
+      "CAT TO THE FUTURE night blue, chrome, orange and red",
+      "TOP CAT orange-pink sunset, aviation blue and warm brown"
+    ]
+  },
+  "source": {
+    "masters": "asset-sources/req-d15/masters/",
+    "prompts": "asset-sources/req-d15/prompts.md",
+    "sourceManifest": "asset-sources/req-d15/source-manifest.json",
+    "reqD16": {
+      "masters": "asset-sources/req-d16/masters/",
+      "prompts": "asset-sources/req-d16/prompts.md",
+      "sourceManifest": "asset-sources/req-d16/source-manifest.json"
+    },
+    "generationMode": "built-in image_gen",
+    "export": "proportional 400x600 resample from final 1024x1536 master"
+  },
+  "posters": {
+    "poster-cat-fiction": {
+      "file": "poster-v1/poster-cat-fiction.png",
+      "width": 400,
+      "height": 600,
+      "opaque": true,
+      "sha256": "31c877fe8bcfb34ea3e44f59a80d93d79ee8ad9a58cf817dc92a985f17cc398b",
+      "source": "asset-sources/req-d15/masters/poster-cat-fiction-master.png"
+    },
+    "poster-cat-future": {
+      "file": "poster-v1/poster-cat-future.png",
+      "width": 400,
+      "height": 600,
+      "opaque": true,
+      "sha256": "e298aa7376447af180efafcdd8f3fc2870bb500fe4449dc9b546f709838d56c9",
+      "source": "asset-sources/req-d15/masters/poster-cat-future-master.png"
+    },
+    "poster-topcat": {
+      "file": "poster-v1/poster-topcat.png",
+      "width": 400,
+      "height": 600,
+      "opaque": true,
+      "sha256": "9673dc71c340907ca8e8cbfaf38978e0241267968578825ebcd701f2e0508f01",
+      "source": "asset-sources/req-d16/masters/poster-topcat-master.png"
+    }
+  }
+}

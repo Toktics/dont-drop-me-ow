@@ -1,0 +1,242 @@
+{
+  "pack": "ddmo-props-v1",
+  "request": "REQ-D6",
+  "palette": {
+    "paper": "#e7dabd",
+    "ink": "#26231f",
+    "softInk": "#3a352d",
+    "accent": "#e8622a"
+  },
+  "animations": {
+    "butterfly": [
+      "butterfly-up",
+      "butterfly-mid",
+      "butterfly-down",
+      "butterfly-mid"
+    ],
+    "vase": {
+      "idle": "vase-upright",
+      "falling": "vase-tipped",
+      "broken": "vase-shards"
+    },
+    "dog": {
+      "sleep": "dog-sleep",
+      "startled": "dog-startled",
+      "run": "dog-run",
+      "runCycle": {
+        "sheet": "dog-run-cycle",
+        "frames": [
+          "extend",
+          "gather",
+          "airborne",
+          "land"
+        ]
+      }
+    },
+    "vacuum": {
+      "run": "vacuum-run",
+      "stopped": "vacuum-stopped"
+    },
+    "mouse": {
+      "run": "mouse-run"
+    }
+  },
+  "sprites": [
+    {
+      "id": "butterfly-up",
+      "file": "ddmo-props-v1/butterfly-up.png",
+      "width": 352,
+      "height": 320,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9469
+      },
+      "source": "gameplay-props-master.png#0"
+    },
+    {
+      "id": "butterfly-mid",
+      "file": "ddmo-props-v1/butterfly-mid.png",
+      "width": 352,
+      "height": 338,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9497
+      },
+      "source": "gameplay-props-master.png#1"
+    },
+    {
+      "id": "butterfly-down",
+      "file": "ddmo-props-v1/butterfly-down.png",
+      "width": 352,
+      "height": 326,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9479
+      },
+      "source": "gameplay-props-master.png#2"
+    },
+    {
+      "id": "vase-upright",
+      "file": "ddmo-props-v1/vase-upright.png",
+      "width": 321,
+      "height": 352,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9517
+      },
+      "source": "gameplay-props-master.png#3"
+    },
+    {
+      "id": "vase-tipped",
+      "file": "ddmo-props-v1/vase-tipped.png",
+      "width": 352,
+      "height": 348,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9511
+      },
+      "source": "gameplay-props-master.png#4"
+    },
+    {
+      "id": "vase-shards",
+      "file": "ddmo-props-v1/vase-shards.png",
+      "width": 352,
+      "height": 341,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9501
+      },
+      "source": "gameplay-props-master.png#5"
+    },
+    {
+      "id": "dog-sleep",
+      "file": "ddmo-props-v1/dog-sleep.png",
+      "width": 352,
+      "height": 333,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9489
+      },
+      "source": "gameplay-props-master.png#6"
+    },
+    {
+      "id": "dog-startled",
+      "file": "ddmo-props-v1/dog-startled.png",
+      "width": 352,
+      "height": 331,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9486
+      },
+      "source": "gameplay-props-master.png#7"
+    },
+    {
+      "id": "vacuum-run",
+      "file": "ddmo-props-v1/vacuum-run.png",
+      "width": 352,
+      "height": 152,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9539
+      },
+      "source": "req-d17/masters/vacuum-run-master.png"
+    },
+    {
+      "id": "vacuum-stopped",
+      "file": "ddmo-props-v1/vacuum-stopped.png",
+      "width": 352,
+      "height": 155,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9548
+      },
+      "source": "req-d17/masters/vacuum-stopped-master.png"
+    },
+    {
+      "id": "mouse-run",
+      "file": "ddmo-props-v1/mouse-run.png",
+      "width": 352,
+      "height": 84,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.95
+      },
+      "source": "req-d18/masters/mouse-run-master.png"
+    },
+    {
+      "id": "dog-run",
+      "file": "ddmo-props-v1/dog-run.png",
+      "width": 352,
+      "height": 184,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9511
+      },
+      "source": "req-d20/masters/dog-run-master.png"
+    },
+    {
+      "id": "dog-run-cycle",
+      "file": "ddmo-props-v1/dog-run-cycle.png",
+      "width": 1408,
+      "height": 184,
+      "frameWidth": 352,
+      "frameHeight": 184,
+      "frameCount": 4,
+      "frames": [
+        {
+          "name": "extend",
+          "x": 0,
+          "y": 0,
+          "width": 352,
+          "height": 184
+        },
+        {
+          "name": "gather",
+          "x": 352,
+          "y": 0,
+          "width": 352,
+          "height": 184
+        },
+        {
+          "name": "airborne",
+          "x": 704,
+          "y": 0,
+          "width": 352,
+          "height": 184
+        },
+        {
+          "name": "land",
+          "x": 1056,
+          "y": 0,
+          "width": 352,
+          "height": 184
+        }
+      ],
+      "anchors": [
+        {
+          "x": 0.5,
+          "y": 0.9511
+        },
+        {
+          "x": 0.5,
+          "y": 0.9511
+        },
+        {
+          "x": 0.5,
+          "y": 0.9511
+        },
+        {
+          "x": 0.5,
+          "y": 0.9511
+        }
+      ],
+      "source": "req-d21/masters/dog-run-cycle-*-master.png"
+    }
+  ],
+  "extensions": [
+    "REQ-D17",
+    "REQ-D18",
+    "REQ-D20",
+    "REQ-D21"
+  ]
+}

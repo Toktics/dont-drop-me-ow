@@ -1,0 +1,435 @@
+{
+  "pack": "moko-death-v2",
+  "request": "REQ-D9",
+  "supersedes": "REQ-D8 set",
+  "cell": {
+    "width": 288,
+    "height": 256
+  },
+  "palette": {
+    "paper": "#e7dabd",
+    "ink": "#26231f",
+    "accent": "#e8622a",
+    "mokoBlue": "#758ea8"
+  },
+  "assets": {
+    "mokoAngelUp": {
+      "file": "moko-death-v2/moko-angel-up.png",
+      "width": 288,
+      "height": 256,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.953125
+      },
+      "alphaBounds": {
+        "x": 25,
+        "y": 12,
+        "width": 238,
+        "height": 232
+      },
+      "source": "asset-sources/req-d9/masters/moko-angel-up-master.png"
+    },
+    "mokoAngelDown": {
+      "file": "moko-death-v2/moko-angel-down.png",
+      "width": 288,
+      "height": 256,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.953125
+      },
+      "alphaBounds": {
+        "x": 27,
+        "y": 12,
+        "width": 233,
+        "height": 232
+      },
+      "source": "asset-sources/req-d9/masters/moko-angel-down-master.png"
+    },
+    "mokoFaintA": {
+      "file": "moko-death-v2/moko-faint-a.png",
+      "width": 288,
+      "height": 256,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.953125
+      },
+      "alphaBounds": {
+        "x": 77,
+        "y": 12,
+        "width": 133,
+        "height": 232
+      },
+      "source": "asset-sources/req-d9/masters/moko-faint-a-master.png"
+    },
+    "mokoFaintB": {
+      "file": "moko-death-v2/moko-faint-b.png",
+      "width": 288,
+      "height": 256,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.953125
+      },
+      "alphaBounds": {
+        "x": 77,
+        "y": 12,
+        "width": 133,
+        "height": 232
+      },
+      "source": "asset-sources/req-d9/masters/moko-faint-b-master.png"
+    },
+    "mokoFaintFlat": {
+      "file": "moko-death-v2/moko-faint-flat.png",
+      "width": 288,
+      "height": 256,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.730469
+      },
+      "alphaBounds": {
+        "x": 12,
+        "y": 69,
+        "width": 264,
+        "height": 118
+      },
+      "source": "asset-sources/req-d9/masters/moko-faint-flat-master.png"
+    },
+    "heart": {
+      "file": "moko-death-v2/vig-heart.png",
+      "width": 28,
+      "height": 28,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "alphaBounds": {
+        "x": 2,
+        "y": 4,
+        "width": 24,
+        "height": 19
+      },
+      "source": "asset-sources/req-d9/masters/vig-heart-master.png"
+    },
+    "smoke": {
+      "file": "moko-death-v2/vig-smoke.png",
+      "width": 44,
+      "height": 44,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "alphaBounds": {
+        "x": 3,
+        "y": 6,
+        "width": 38,
+        "height": 31
+      },
+      "source": "asset-sources/req-d9/masters/vig-smoke-master.png"
+    },
+    "mokoMummy": {
+      "file": "moko-death-v2/moko-mummy.png",
+      "width": 288,
+      "height": 256,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.953125
+      },
+      "alphaBounds": {
+        "x": 44,
+        "y": 12,
+        "width": 200,
+        "height": 232
+      },
+      "source": "asset-sources/req-d9/masters/moko-mummy-master.png"
+    },
+    "mokoMummyHop": {
+      "file": "moko-death-v2/moko-mummy-hop.png",
+      "width": 288,
+      "height": 256,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.953125
+      },
+      "alphaBounds": {
+        "x": 36,
+        "y": 12,
+        "width": 215,
+        "height": 232
+      },
+      "source": "asset-sources/req-d9/masters/moko-mummy-hop-master.png"
+    },
+    "mokoBones": {
+      "file": "moko-death-v2/moko-bones.png",
+      "width": 224,
+      "height": 120,
+      "anchor": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "alphaBounds": {
+        "x": 6,
+        "y": 6,
+        "width": 212,
+        "height": 107
+      },
+      "source": "asset-sources/req-d9/masters/moko-bones-master.png"
+    },
+    "ufo": {
+      "file": "moko-death-v2/vig-ufo.png",
+      "width": 150,
+      "height": 90,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "alphaBounds": {
+        "x": 4,
+        "y": 18,
+        "width": 142,
+        "height": 54
+      },
+      "source": "asset-sources/req-d9/masters/vig-ufo-master.png"
+    },
+    "beam": {
+      "file": "moko-death-v2/vig-beam.png",
+      "width": 90,
+      "height": 280,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.0
+      },
+      "alphaBounds": {
+        "x": 2,
+        "y": 16,
+        "width": 86,
+        "height": 247
+      },
+      "source": "asset-sources/req-d9/masters/vig-beam-master.png"
+    },
+    "mokoPointGlare": {
+      "file": "moko-death-v2/moko-point-glare.png",
+      "width": 288,
+      "height": 256,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.953125
+      },
+      "alphaBounds": {
+        "x": 52,
+        "y": 12,
+        "width": 183,
+        "height": 232
+      },
+      "source": "asset-sources/req-d9/masters/moko-point-glare-master.png"
+    },
+    "mokoPointBlame": {
+      "file": "moko-death-v2/moko-point-blame.png",
+      "width": 288,
+      "height": 256,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.953125
+      },
+      "alphaBounds": {
+        "x": 56,
+        "y": 12,
+        "width": 176,
+        "height": 232
+      },
+      "source": "asset-sources/req-d9/masters/moko-point-blame-master.png"
+    },
+    "reaperMouse": {
+      "file": "moko-death-v2/vig-reaper-mouse.png",
+      "width": 128,
+      "height": 96,
+      "anchor": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "alphaBounds": {
+        "x": 4,
+        "y": 17,
+        "width": 120,
+        "height": 61
+      },
+      "source": "asset-sources/req-d9/masters/vig-reaper-mouse-master.png"
+    },
+    "reaperRunA": {
+      "file": "moko-death-v2/vig-reaper-run-a.png",
+      "width": 128,
+      "height": 96,
+      "anchor": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "alphaBounds": {
+        "x": 4,
+        "y": 23,
+        "width": 120,
+        "height": 55
+      },
+      "source": "asset-sources/req-d9/masters/vig-reaper-run-a-master.png",
+      "request": "REQ-D10"
+    },
+    "reaperRunB": {
+      "file": "moko-death-v2/vig-reaper-run-b.png",
+      "width": 128,
+      "height": 96,
+      "anchor": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "alphaBounds": {
+        "x": 4,
+        "y": 19,
+        "width": 120,
+        "height": 59
+      },
+      "source": "asset-sources/req-d9/masters/vig-reaper-run-b-master.png",
+      "request": "REQ-D10"
+    },
+    "mokoFlee": {
+      "file": "moko-death-v2/moko-flee.png",
+      "width": 288,
+      "height": 256,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.773438
+      },
+      "alphaBounds": {
+        "x": 12,
+        "y": 58,
+        "width": 264,
+        "height": 140
+      },
+      "source": "asset-sources/req-d9/masters/moko-flee-master.png"
+    },
+    "mokoSkelFall": {
+      "file": "moko-death-v2/moko-skel-fall.png",
+      "width": 288,
+      "height": 256,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.953125
+      },
+      "alphaBounds": {
+        "x": 41,
+        "y": 50,
+        "width": 207,
+        "height": 186
+      },
+      "source": "asset-sources/req-d9/masters/moko-skel-fall-supplied-master.png"
+    },
+    "mokoSkelStandA": {
+      "file": "moko-death-v2/moko-skel-stand-a.png",
+      "width": 288,
+      "height": 256,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.953125
+      },
+      "alphaBounds": {
+        "x": 51,
+        "y": 34,
+        "width": 185,
+        "height": 210
+      },
+      "source": "asset-sources/req-d9/masters/moko-skel-stand-a-supplied-master.png"
+    },
+    "mokoSkelStandB": {
+      "file": "moko-death-v2/moko-skel-stand-b.png",
+      "width": 288,
+      "height": 256,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.953125
+      },
+      "alphaBounds": {
+        "x": 53,
+        "y": 34,
+        "width": 182,
+        "height": 210
+      },
+      "source": "asset-sources/req-d9/masters/moko-skel-stand-b-supplied-master.png"
+    },
+    "ko": {
+      "file": "moko-death-v2/ko-moko.png",
+      "width": 288,
+      "height": 256,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.8789
+      },
+      "alphaBounds": {
+        "x": 32,
+        "y": 119,
+        "width": 224,
+        "height": 106
+      },
+      "source": "asset-sources/req-d7/masters/ko-moko-master.png"
+    },
+    "halo": {
+      "file": "moko-death-v2/halo.png",
+      "width": 52,
+      "height": 14,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "alphaBounds": {
+        "x": 0,
+        "y": 2,
+        "width": 52,
+        "height": 10
+      },
+      "source": "asset-sources/req-d8/masters/halo-master.png"
+    },
+    "curtainEdge": {
+      "file": "moko-death-v2/curtain-edge.png",
+      "width": 96,
+      "height": 320,
+      "anchor": {
+        "x": 0.0,
+        "y": 0.5
+      },
+      "alphaBounds": {
+        "x": 0,
+        "y": 25,
+        "width": 96,
+        "height": 269
+      },
+      "source": "asset-sources/req-d8/masters/curtain-master.png"
+    },
+    "eightToGo": {
+      "file": "moko-death-v2/eight-to-go.png",
+      "width": 240,
+      "height": 52,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "alphaBounds": {
+        "x": 0,
+        "y": 4,
+        "width": 240,
+        "height": 44
+      },
+      "source": "asset-sources/req-d8/masters/eight-to-go-master.png"
+    },
+    "tombstone": {
+      "file": "moko-death-v2/tombstone.png",
+      "width": 148,
+      "height": 150,
+      "anchor": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "alphaBounds": {
+        "x": 9,
+        "y": 7,
+        "width": 123,
+        "height": 143
+      },
+      "source": "asset-sources/req-d9/masters/rip-tombstone-master.png"
+    }
+  }
+}

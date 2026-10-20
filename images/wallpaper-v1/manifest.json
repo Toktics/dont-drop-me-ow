@@ -1,0 +1,44 @@
+{
+  "pack": "wallpaper-v1",
+  "request": "REQ-D14",
+  "provenance": "REQ-D14 authored wallpaper fields generated with built-in image_gen and exported from preserved masters",
+  "canvas": {
+    "width": 1184,
+    "height": 418,
+    "opaque": true
+  },
+  "palette": {
+    "paper": "#e7dabd",
+    "ink": "#26231f",
+    "softInk": "#3a352d",
+    "accent": "#e8622a",
+    "paleLayer": "#dde2cf",
+    "bottleGreen": "named exception"
+  },
+  "source": {
+    "masters": "asset-sources/req-d14/masters/",
+    "prompts": "asset-sources/req-d14/prompts.md",
+    "generationMode": "built-in image_gen",
+    "export": "centred aspect crop followed by exact 1184x418 resample"
+  },
+  "wallpapers": {
+    "paper-bones": {
+      "file": "wallpaper-v1/paper-bones.png",
+      "width": 1184,
+      "height": 418,
+      "source": "asset-sources/req-d14/masters/paper-bones-master.png"
+    },
+    "paper-paws": {
+      "file": "wallpaper-v1/paper-paws.png",
+      "width": 1184,
+      "height": 418,
+      "source": "asset-sources/req-d14/masters/paper-paws-master.png"
+    },
+    "paper-yarn": {
+      "file": "wallpaper-v1/paper-yarn.png",
+      "width": 1184,
+      "height": 418,
+      "source": "asset-sources/req-d14/masters/paper-yarn-master.png"
+    }
+  }
+}

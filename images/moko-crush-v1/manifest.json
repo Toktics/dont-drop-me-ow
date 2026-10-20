@@ -1,0 +1,24 @@
+{
+  "request": "REQ-D19",
+  "generator": "built-in image_gen",
+  "master": "asset-sources/req-d19/masters/moko-seam-master.png",
+  "crop": {
+    "left": 189,
+    "top": 475,
+    "width": 607,
+    "height": 784
+  },
+  "sprite": {
+    "file": "moko-seam.png",
+    "width": 223,
+    "height": 288,
+    "anchor": {
+      "x": 0.56,
+      "y": 1
+    },
+    "runtimeHeight": 64,
+    "layer": "foreground of sealed crush columns",
+    "masterSha256": "2103271ddcf909897fc922b367b6a8574a583ed8054ed702334bbfe7b6cf51f0",
+    "sha256": "1189b18e4c6c269482d92b3db55cd7b58aea1193b95dece95e09be8b10f83212"
+  }
+}

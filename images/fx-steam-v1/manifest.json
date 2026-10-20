@@ -1,0 +1,65 @@
+{
+  "pack": "fx-steam-v1",
+  "request": "REQ-D13",
+  "provenance": "REQ-D13 authored steam override; generated from Martin's supplied photographic steam references with built-in image_gen",
+  "frame": {
+    "width": 96,
+    "height": 96
+  },
+  "palette": {
+    "body": "#f6f2e8",
+    "filamentShading": "faint cool-grey",
+    "referenceField": "#e7dabd"
+  },
+  "source": {
+    "masters": "asset-sources/req-d13/masters/",
+    "prompts": "asset-sources/req-d13/prompts.md",
+    "references": "asset-sources/req-d13/steam-refs/",
+    "selectionMap": "asset-sources/req-d13/selection-map.json",
+    "exportScript": "asset-sources/req-d13/build-steam-pack.py"
+  },
+  "sprites": {
+    "puff-01": {
+      "file": "fx-steam-v1/puff-01.png",
+      "kind": "drifting-puff",
+      "alphaBounds": { "x": 12, "y": 25, "width": 72, "height": 46 },
+      "origin": { "x": 0.5, "y": 0.5 },
+      "source": "asset-sources/req-d13/masters/puff-01-retry-raw.png"
+    },
+    "puff-02": {
+      "file": "fx-steam-v1/puff-02.png",
+      "kind": "drifting-puff",
+      "alphaBounds": { "x": 12, "y": 29, "width": 72, "height": 38 },
+      "origin": { "x": 0.5, "y": 0.5 },
+      "source": "asset-sources/req-d13/masters/puff-02-retry-raw.png"
+    },
+    "puff-03": {
+      "file": "fx-steam-v1/puff-03.png",
+      "kind": "drifting-puff",
+      "alphaBounds": { "x": 12, "y": 27, "width": 72, "height": 42 },
+      "origin": { "x": 0.5, "y": 0.5 },
+      "source": "asset-sources/req-d13/masters/puff-03-retry-raw.png"
+    },
+    "puff-04": {
+      "file": "fx-steam-v1/puff-04.png",
+      "kind": "drifting-puff",
+      "alphaBounds": { "x": 12, "y": 28, "width": 72, "height": 39 },
+      "origin": { "x": 0.5, "y": 0.5 },
+      "source": "asset-sources/req-d13/masters/puff-04-retry-raw.png"
+    },
+    "plume-01": {
+      "file": "fx-steam-v1/plume-01.png",
+      "kind": "continuous-column",
+      "alphaBounds": { "x": 26, "y": 6, "width": 44, "height": 84 },
+      "origin": { "x": 0.5, "y": 0.5 },
+      "source": "asset-sources/req-d13/masters/prompt-puff-01-raw.png"
+    },
+    "plume-02": {
+      "file": "fx-steam-v1/plume-02.png",
+      "kind": "continuous-column",
+      "alphaBounds": { "x": 31, "y": 6, "width": 33, "height": 84 },
+      "origin": { "x": 0.5, "y": 0.5 },
+      "source": "asset-sources/req-d13/masters/prompt-puff-02-raw.png"
+    }
+  }
+}
